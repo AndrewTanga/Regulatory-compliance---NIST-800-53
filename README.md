@@ -38,8 +38,9 @@ Implementing NIST 800-53: SC-7 Boundary Protection
 ![SC - 7](https://github.com/AndrewTanga/Regulatory-compliance---NIST-800-53/assets/93886645/ab3bdfa4-0684-4476-a4fd-856431730d47)
 ![Vulnerability exlorations](https://github.com/AndrewTanga/Regulatory-compliance---NIST-800-53/assets/93886645/442841ac-2226-4f11-a5f0-ae7d323c4a08)
 
-Enabling Network Security Groups on subnet:
+Vulnerability: Subnets should be associated with a network security group
 
+Remediation Steps:
 1. Select a subnet to enable NSG on.
 2. Click the 'Network security group' section.
 3. Follow the steps and select an existing network security group to attach to this specific subnet.
@@ -48,7 +49,29 @@ After subnet implementation
 
 ![After submitting subnet](https://github.com/AndrewTanga/Regulatory-compliance---NIST-800-53/assets/93886645/4eeb6d9d-45ab-4ce0-b291-98d3366f9a0f)
 
+Vulnerability: Storage account should use a private link connection
+Remediation Steps:
+1. In the Azure portal, open storage account.
+2. From the left sidebar, select 'Configuration'.
+3. Make sure 'Allow Blob public access' i sdisabled.
+4. From the left sidebar, select 'Networking'.
+5. Disable Public network access and save
+6. Add 'Private endpoint' and config it correcrly. Make sure vnet and subnet is correct, private IP configuration - Dynamically alloctae IP, DNS(for FQDN)
 
+Vulnerability: Storage accounts should restrict network access using virtual network rules
+Remediation Steps: 
+1. In the Azure portal, open storage account.
+2. From the left sidebar, select 'Networking'.
+3. From the 'Allow access from' section, select 'Selected networks'.
+4. Add a Virtual network under the 'Virtual networks' section. Do not add allowed IP ranges/ or addresses in the firewall. This is to prevent public IPs from accessing your storage account.
+
+Vulnerability: Access to storage accounts with firewall and virtual network configurations should be restricted
+Remediation Steps:
+1. In storage account, go to 'Firewalls and virtual networks'.
+2. Under 'Allow access from', choose 'Selected networks'.
+3. Configure the relevant virtual networks and IP ranges that should be allowed to access your storage account.
+4. Configure "Allow trusted Microsoft services to access your storage account".
+ 
 
 
 
