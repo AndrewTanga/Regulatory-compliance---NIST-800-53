@@ -34,8 +34,10 @@
 ## The system prior to compliance.
 ![46](https://github.com/AndrewTanga/Regulatory-compliance---NIST-800-53/assets/93886645/c9419953-c73c-4ae3-933b-cc80fbe75615)
 
-Working on SC - 7 Boundary Protection
-![SC-7 boundries](https://github.com/AndrewTanga/Regulatory-compliance---NIST-800-53/assets/93886645/8175e309-af87-4f56-b7f8-951369bf3334)
+Working on SC-7 Boundary Protection/SC-7(3) Access Points
+![SC-7 7(3)Boundries overview](https://github.com/AndrewTanga/Regulatory-compliance---NIST-800-53/assets/93886645/d369de41-1c9c-44f1-84cb-7d068f3d13a8)
+
+
 
 
 
