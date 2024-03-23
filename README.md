@@ -37,11 +37,15 @@
 Implementing NIST 800-53: SC-7 Boundary Protection
 ![SC - 7](https://github.com/AndrewTanga/Regulatory-compliance---NIST-800-53/assets/93886645/ab3bdfa4-0684-4476-a4fd-856431730d47)
 ![Vulnerability exlorations](https://github.com/AndrewTanga/Regulatory-compliance---NIST-800-53/assets/93886645/442841ac-2226-4f11-a5f0-ae7d323c4a08)
+
 Enabling Network Security Groups on subnet:
+
 1. Select a subnet to enable NSG on.
 2. Click the 'Network security group' section.
 3. Follow the steps and select an existing network security group to attach to this specific subnet.
-After configured subnet 
+
+After subnet implementation
+
 ![After submitting subnet](https://github.com/AndrewTanga/Regulatory-compliance---NIST-800-53/assets/93886645/4eeb6d9d-45ab-4ce0-b291-98d3366f9a0f)
 
 
