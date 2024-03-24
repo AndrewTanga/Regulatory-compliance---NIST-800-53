@@ -38,7 +38,7 @@ Implementing NIST 800-53: SC-7 Boundary Protection
 ![SC - 7](https://github.com/AndrewTanga/Regulatory-compliance---NIST-800-53/assets/93886645/ab3bdfa4-0684-4476-a4fd-856431730d47)
 ![Vulnerability exlorations](https://github.com/AndrewTanga/Regulatory-compliance---NIST-800-53/assets/93886645/442841ac-2226-4f11-a5f0-ae7d323c4a08)
 
-##Vulnerability: Subnets should be associated with a network security group
+## Vulnerability: Subnets should be associated with a network security group
 Remediation Steps:
 1. Select a subnet to enable NSG on.
 2. Click the 'Network security group' section.
@@ -73,6 +73,11 @@ Remediation Steps:
 2. Under 'Allow access from', choose 'Selected networks'.
 3. Configure the relevant virtual networks and IP ranges that should be allowed to access your storage account.
 4. Configure "Allow trusted Microsoft services to access your storage account".
+
+The next Vulnerabilities:'Storage account should use a private link connection', 'Storage account should use a private link connection', 'Storage accounts should restrict network access using virtual network rules, 'Access to storage accounts with firewall and virtual network configurations should be restricted' were excluded/partly excluded.
+![After 1](https://github.com/AndrewTanga/Regulatory-compliance---NIST-800-53/assets/93886645/0314dc5d-4905-4ad1-8f8a-62e48d293b79)
+![After 2](https://github.com/AndrewTanga/Regulatory-compliance---NIST-800-53/assets/93886645/f455a713-25c6-4529-aaf4-320936ed5a97)
+
  
 
 
